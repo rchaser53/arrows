@@ -1,0 +1,8 @@
+{
+  "globalDependencies": {
+    "enzyme": "registry:dt/enzyme#2.5.1+20161025153540",
+    "expect": "registry:dt/expect#1.13.4+20160316155526",
+    "react": "registry:dt/react#0.14.0+20161008064207",
+    "react-dom": "registry:dt/react-dom#0.14.0+20160412154040"
+  }
+}

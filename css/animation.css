@@ -1,0 +1,22 @@
+.arrow {
+	fill:none;
+	stroke: #f00;
+	stroke-width: 2;
+	stroke-dasharray:0;
+}
+
+.arrowHead {
+	position: relative;
+	width: 10px;
+	height: 10px;
+}
+
+.arrowHead::after {
+	content: "";
+	position: absolute;
+	top: -5px;
+	right: -10px;
+	border-left: 10px solid green;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+}

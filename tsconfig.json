@@ -1,0 +1,35 @@
+	{
+	"compilerOptions": {
+		"noImplicitAny": false,
+		"removeComments": false,
+		"noLib": false,
+		"target": "es2015",
+		"allowJs":false,
+		"jsx": "react",
+		"module": "commonjs",
+		"experimentalDecorators": true,
+		"declaration": false,
+		"strictNullChecks": true,
+		"noUnusedLocals": false,
+		"noEmit": false,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"outDir": "dist",
+		"forceConsistentCasingInFileNames": true,
+		"typeRoots" : ["./typings/globals/"]
+	},
+	"compileOnSave":false,
+	"lib":["es2015.promise","es2016.array.include"],
+	"exclude":[
+		"node_modules/**/*.ts"
+	],
+	"include":[
+		"typings/globals/**/index.d.ts",
+		"css/**/*.ts",
+		"src/**/*.ts",
+		"src/**/*.tsx",
+		"example/**/*.tsx",
+		"test/**/*.tsx"
+	]
+}
