@@ -38,10 +38,10 @@ class Arrow extends React.Component<Props, {}> {
 		const { x: x1, y: y1} = startPoint;
 		const { x: x2, y: y2} = endPoint;
 
-		this.inflectionX1 = ((x1 - x2) > 0) ? 50 : -50;
-		this.inflectionY1 = ((y1 - y2) > 0) ? 50 : -50;
-		this.inflectionX2 = ((x1 - x2) > 0) ? -50 : 50;
-		this.inflectionY2 = ((y1 - y2) > 0) ? -50 : 50;
+		this.inflectionX1 = ((x1 - x2) > 0) ? 100 : -100;
+		this.inflectionY1 = ((y1 - y2) > 0) ? 10 : -10;
+		this.inflectionX2 = ((x1 - x2) > 0) ? 10 : -10;
+		this.inflectionY2 = ((y1 - y2) > 0) ? -100 : 100;
 	}
 
 	componentDidMount() {
